@@ -1,0 +1,30 @@
+
+.Megaportfolio__container {
+    display: block;
+    gap: 5rem;
+    padding: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+.portfolio__container {
+    display: inline-block;
+    grid-template-columns: auto;
+    background: var(--color-bg-variant);
+    height: auto;
+    width: 15rem;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    transition: var(--transition);
+}
+
+.portfolio__container:hover {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+
+
+}
+
